@@ -1,0 +1,19 @@
+{
+  "name": "eg-calendar",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix src run dev",
+    "build": "npm --prefix src run build",
+    "start": "npm --prefix src run start",
+    "lint": "npm --prefix src run lint",
+    "test": "npm --prefix src run test",
+    "typecheck": "npm --prefix src run build",
+    "supabase:status": "npx supabase status",
+    "supabase:start": "npx supabase start",
+    "supabase:stop": "npx supabase stop",
+    "supabase:push": "npx supabase db push",
+    "supabase:reset": "npx supabase db reset",
+    "supabase:deploy-functions": "npx supabase functions deploy"
+  }
+}
